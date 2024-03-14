@@ -25,7 +25,7 @@ include(${FREERTOS_KERNEL_PATH}/portable/ThirdParty/GCC/RP2040/FreeRTOS_Kernel_i
 
 message(VERSION_REVISION="${PICO_SDK_VERSION_REVISION}") 
 
-project(weather C CXX ASM)
+project(telemetry C CXX ASM)
 set(CMAKE_C_STANDARD 11)
 set(CMAKE_CXX_STANDARD 17)
 
